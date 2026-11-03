@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ef;
+    color: #333;
+}
+
+header {
+    background-color: #8b2e1c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #f4a641;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: #8b2e1c;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#recipes {
+    background-color: #fff0df;
+}
+
+footer {
+    background-color: #8b2e1c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
+
+#recipes img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Navigation Hover Effect */
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+}
